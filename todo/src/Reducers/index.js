@@ -1,4 +1,4 @@
-import { ADD_TODO, MARK_FINISHED, DELETE_TODO, DELETE_FINISHED } from '../actions';
+import { ADD_TODO, MARK_FINISHED, DELETE_TODO, DELETE_FINISHED } from '../Actions';
 
 const initialState = localStorage.getItem('todos') === null ?
     { todos: [] } :
